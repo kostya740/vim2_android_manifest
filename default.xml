@@ -2,11 +2,12 @@
 <manifest>
   <remote fetch="https://android.googlesource.com/" name="aosp" review="https://android-review.googlesource.com/"/>
   <remote fetch="https://github.com/khadas/" name="github"/>
+  <remote fetch="https://github.com/kostya740/" name="kostya740"/>
   
   <default remote="github" revision="refs/heads/khadas-vims-nougat" sync-j="4"/>
   
   <project name="android_vendor_amlogic_apps_IrBlaster" path="vendor/amlogic/apps/IrBlaster" revision="fab61fd332ea3bb4ccba6791a3df0c1d4c1dea31"/>
-  <project name="android_device_khadas" path="device/khadas" revision="6e6b86d9761dabb6ee8625709184beb9a37889e5"/>
+  <project name="android_device_khadas" path="device/khadas" remote="kostya740" revision="68d3f4a9d454480fded1a779a186d0b80d875231"/>
   <project name="linux" path="common" revision="1bd6972cd0093725c0b1dc87f6546648bbb22452"/>
   <project name="android_abi_cpp" path="abi/cpp" revision="36b381298a4efb7c293d394d8b1acbda68230989"/>
   <project name="android_art" path="art" revision="f9e3754e8a2f6244e037362c03db32d4244ecb2d"/>
