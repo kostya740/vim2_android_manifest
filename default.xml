@@ -3,11 +3,12 @@
   <remote fetch="https://android.googlesource.com/" name="aosp" review="https://android-review.googlesource.com/"/>
   <remote fetch="https://github.com/khadas/" name="github"/>
   <remote fetch="https://github.com/kostya740/" name="kostya740"/>
+  <remote fetch="https://github.com/terry2droid/" name="terry2droid"/>
   
   <default remote="github" revision="refs/heads/khadas-vims-nougat" sync-j="4"/>
   
   <project name="android_vendor_amlogic_apps_IrBlaster" path="vendor/amlogic/apps/IrBlaster" revision="fab61fd332ea3bb4ccba6791a3df0c1d4c1dea31"/>
-  <project name="android_device_khadas" path="device/khadas" remote="kostya740" revision="68d3f4a9d454480fded1a779a186d0b80d875231"/>
+  <project name="vim2_android_device_khadas" path="device/khadas" remote="kostya740" revision="68d3f4a9d454480fded1a779a186d0b80d875231"/>
   <project name="linux" path="common" revision="1bd6972cd0093725c0b1dc87f6546648bbb22452"/>
   <project name="android_abi_cpp" path="abi/cpp" revision="36b381298a4efb7c293d394d8b1acbda68230989"/>
   <project name="android_art" path="art" revision="f9e3754e8a2f6244e037362c03db32d4244ecb2d"/>
@@ -91,6 +92,7 @@
   <project name="android_external_fdlibm" path="external/fdlibm" revision="eb6c9fcfe52e665917ff5a9670c909f9e3c92fa5"/>
   <project name="android_external_fec" path="external/fec" revision="791afbe58ff9f55145c4adf632ab8cc9ca6e5686"/>
   <project name="supersu" path="vendor/amlogic/root" revision="a79b7548d2d631c6bbda98eebbd62241bda6e369"/>
+  <project name="google" path="vendor/amlogic/google" remote="terry2droid" revision="ab507fba85059d8422fd4f188a1da6e1ab2760bb"/>
   <project name="android_vendor_amlogic_external_ffmpeg" path="vendor/amlogic/external/ffmpeg" revision="08ce83b78e7611b62d480f9cc1e98bbbfb82e7f0"/>
   <project name="android_external_fio" path="external/fio" revision="1aec78b2e6aaf90d45b8e3f9b3d2f07dd9334827"/>
   <project name="android_external_flac" path="external/flac" revision="fdbb5b06d18c907c4324e00d17e1112fa7c278ff"/>
@@ -335,7 +337,7 @@
   <project name="android_hardware_broadcom_wlan" path="hardware/broadcom/wlan" revision="9deece5d2b654eb174b40577b88352b38ee24d48"/>
   <project name="android_hardware_bsp_intel" path="hardware/bsp/intel" revision="558d3e3108966a320b5ccfefd2a6c4c595976b82"/>
   <project name="android_hardware_google_apf" path="hardware/google/apf" revision="f80b9d17d393b75fbb41971a9ecc30b098a00d55"/>
-  <project name="android_hardware_gps" path="hardware/gps" remote="kostya740" revision="f066e75fc899e110951678f6cc5709cdc5a0f0a0"/>
+  <project name="gps-glonass-android-driver" path="hardware/gps" remote="kostya740" revision="f066e75fc899e110951678f6cc5709cdc5a0f0a0"/>
   <project name="android_hardware_intel_sensors" path="hardware/intel/sensors" revision="68dc9e70b79dacddc4e0bf00af0de7f764b04eed"/>
   <project name="android_hardware_libhardware" path="hardware/libhardware" revision="f41490ba5be033dded014bc7d816c67303845fd9"/>
   <project name="android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" revision="1b0b9fd357deec36671823e1a3b8b6a2f675dda6"/>
