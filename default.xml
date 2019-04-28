@@ -335,6 +335,7 @@
   <project name="android_hardware_broadcom_wlan" path="hardware/broadcom/wlan" revision="9deece5d2b654eb174b40577b88352b38ee24d48"/>
   <project name="android_hardware_bsp_intel" path="hardware/bsp/intel" revision="558d3e3108966a320b5ccfefd2a6c4c595976b82"/>
   <project name="android_hardware_google_apf" path="hardware/google/apf" revision="f80b9d17d393b75fbb41971a9ecc30b098a00d55"/>
+  <project name="android_hardware_gps" path="hardware/gps" remote="kostya740" revision="f066e75fc899e110951678f6cc5709cdc5a0f0a0"/>
   <project name="android_hardware_intel_sensors" path="hardware/intel/sensors" revision="68dc9e70b79dacddc4e0bf00af0de7f764b04eed"/>
   <project name="android_hardware_libhardware" path="hardware/libhardware" revision="f41490ba5be033dded014bc7d816c67303845fd9"/>
   <project name="android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" revision="1b0b9fd357deec36671823e1a3b8b6a2f675dda6"/>
