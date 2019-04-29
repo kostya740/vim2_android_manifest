@@ -7,7 +7,7 @@
   
   <default remote="github" revision="refs/heads/khadas-vims-nougat" sync-j="4"/>
   
-  <project name="vim2_shs" path="shs" remote="kostya740" revision="17d67df07540907c6677f5bfa947a1dcf46f55b8">
+  <project name="vim2_shs" path="shs" remote="kostya740" revision="bf5b23f4e1df405f662217396101b37a406316e5">
     <linkfile dest="build_boot_logo.sh" src="build_boot_logo.sh"/>
     <linkfile dest="build_full.sh" src="build_full.sh"/>
     <linkfile dest="build_kernel.sh" src="build_kernel.sh"/>
