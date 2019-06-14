@@ -8,7 +8,7 @@
   
   <default remote="github" revision="refs/heads/khadas-vims-nougat" sync-j="4"/>
   
-  <project name="vim2_shs" path="shs" remote="kostya740" revision="bf5b23f4e1df405f662217396101b37a406316e5">
+  <project name="vim2_shs" path="shs" remote="hyperion11" revision="bf5b23f4e1df405f662217396101b37a406316e5">
     <linkfile dest="build_boot_logo.sh" src="build_boot_logo.sh"/>
     <linkfile dest="build_full.sh" src="build_full.sh"/>
     <linkfile dest="build_kernel.sh" src="build_kernel.sh"/>
@@ -16,7 +16,7 @@
     <linkfile dest="build_uboot.sh" src="build_uboot.sh"/>
   </project>
   <project name="android_vendor_amlogic_apps_IrBlaster" path="vendor/amlogic/apps/IrBlaster" revision="fab61fd332ea3bb4ccba6791a3df0c1d4c1dea31"/>
-  <project name="vim2_android_device_khadas" path="device/khadas" remote="kostya740" revision="68d3f4a9d454480fded1a779a186d0b80d875231"/>
+  <project name="vim2_android_device_khadas" path="device/khadas" remote="hyperion11" revision="68d3f4a9d454480fded1a779a186d0b80d875231"/>
   <project name="linux" path="common" revision="1bd6972cd0093725c0b1dc87f6546648bbb22452"/>
   <project name="android_abi_cpp" path="abi/cpp" revision="36b381298a4efb7c293d394d8b1acbda68230989"/>
   <project name="android_art" path="art" revision="f9e3754e8a2f6244e037362c03db32d4244ecb2d"/>
@@ -288,7 +288,10 @@
   <project name="android_external_zxing" path="external/zxing" revision="fedf8f2d8099bf7bb85dc3db8699343d56617deb"/>
   <project name="android_external_i2c-tools" path="external/i2c-tools" revision="0bd91bc72493a6af67efa57aa33ad30b5f32b353"/>
   <project name="android_frameworks_av" path="frameworks/av" revision="35072df2be9530930a1bd0b5d451e88c565a59f7"/>
+  <!--
   <project name="android_frameworks_base" path="frameworks/base" revision="1988e63403b23efe215d393efc04c8232fa01570"/>
+  -->
+  <project name="android_frameworks_base" path="frameworks/base" remote="hyperion11" revision="aa38bcbf2c4a937c407a25d6620a841bfff81867"/>
   <project name="android_frameworks_compile_libbcc" path="frameworks/compile/libbcc" revision="d2e35f95915d480fe203d6614df8b0f5d14de0e5"/>
   <project name="android_frameworks_compile_mclinker" path="frameworks/compile/mclinker" revision="119bb9b550f139ace5f69075390937c7f1222761"/>
   <project name="android_frameworks_compile_slang" path="frameworks/compile/slang" revision="4eb5fac8a0466c674e565ff2c96986c499b439d4"/>
@@ -345,7 +348,7 @@
   <project name="android_hardware_broadcom_wlan" path="hardware/broadcom/wlan" revision="9deece5d2b654eb174b40577b88352b38ee24d48"/>
   <project name="android_hardware_bsp_intel" path="hardware/bsp/intel" revision="558d3e3108966a320b5ccfefd2a6c4c595976b82"/>
   <project name="android_hardware_google_apf" path="hardware/google/apf" revision="f80b9d17d393b75fbb41971a9ecc30b098a00d55"/>
-  <project name="android_hardware_gps" path="hardware/gps" remote="kostya740" revision="53fede939fc322c95e47df2c98578eba17925b62"/>
+  <project name="android_hardware_gps" path="hardware/gps" remote="hyperion11" revision="53fede939fc322c95e47df2c98578eba17925b62"/>
   <project name="android_hardware_intel_sensors" path="hardware/intel/sensors" revision="68dc9e70b79dacddc4e0bf00af0de7f764b04eed"/>
   <project name="android_hardware_libhardware" path="hardware/libhardware" revision="f41490ba5be033dded014bc7d816c67303845fd9"/>
   <project name="android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" revision="1b0b9fd357deec36671823e1a3b8b6a2f675dda6"/>
@@ -448,7 +451,10 @@
   <project name="android_packages_apps_Tag" path="packages/apps/Tag" revision="587be905460f85e28888fe54ccba9d17b105b018"/>
   <project name="android_packages_apps_Terminal" path="packages/apps/Terminal" revision="5b68e8ad082625206492ca9baf889f8c5427eb01"/>
   <project name="android_packages_apps_Test_connectivity" path="packages/apps/Test/connectivity" revision="c835e2e0c11d538415c05dc5e636fe56f1cc7185"/>
+  <!--
   <project name="android_packages_apps_TvSettings" path="packages/apps/TvSettings" revision="e411c153fa7b2fd4aac60ef954933d2d9ebe4846"/>
+  -->
+  <project name="vim2_android_packages_apps_TvSettings_t" path="packages/apps/TvSettings" remote="hyperion11" revision="07bb9353891bfac1336b2d24f06c83d5e1252850"/>
   <project name="android_packages_apps_UnifiedEmail" path="packages/apps/UnifiedEmail" revision="785fcc792435085229d1216d3394c84a4a1a8b19"/>
   <project name="android_packages_experimental" path="packages/experimental" revision="0e6177c78af2de6d71279725753d5db92511f397"/>
   <project name="android_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" revision="704877f34b572039932d5985e4c72a8830164ea4"/>
@@ -529,7 +535,10 @@
   <project name="android_vendor_amlogic_external_libiconv" path="vendor/amlogic/external/libiconv" revision="1021c91e999cb3584220dd5aa432e4f09119aa5b"/>
   <project name="android_vendor_amlogic_external_libtiff" path="vendor/amlogic/external/libtiff" revision="f038c1dac21c3ad13425ccc7d1c847c35469620f"/>
   <project name="android_vendor_amlogic_external_libbluray" path="vendor/amlogic/external/libbluray" revision="dce87f4c41701ed4b5adea67d1ff5e320ca9ad8d" />
+  <!--
   <project name="android_vendor_amlogic_frameworks" path="vendor/amlogic/frameworks" revision="063f7623e57789b16a0f00f0f00e8cac29563468"/>
+  -->
+  <project name="android_vendor_amlogic_frameworks" path="vendor/amlogic/frameworks" remote="hyperion11" revision="bafdc2d4bf2b2f7581857f6c0258dae1468a8e44"/>
   <project name="android_vendor_amlogic_frameworks_av" path="vendor/amlogic/frameworks/av" revision="8cd270053cf73c583c8455a2aea7245721b6fafe"/>
   <project name="android_vendor_amlogic_frameworks_pppoe" path="vendor/amlogic/frameworks/pppoe" revision="4ca96dbb5524029905723cda1b4e4b0407c03f7b"/>
   <project name="android_vendor_amlogic_system_modem" path="vendor/amlogic/system/modem" revision="b8e1214e6baca0c0b55acb448d2ead7bd5a18b7a"/>
