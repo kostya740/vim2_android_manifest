@@ -4,6 +4,7 @@
   <remote fetch="https://github.com/khadas/" name="github"/>
   <remote fetch="https://github.com/kostya740/" name="kostya740"/>
   <remote fetch="https://github.com/terry2droid/" name="terry2droid"/>
+  <remote fetch="https://github.com/hyperion11/" name="hyperion11"/>
   
   <default remote="github" revision="refs/heads/khadas-vims-nougat" sync-j="4"/>
   
