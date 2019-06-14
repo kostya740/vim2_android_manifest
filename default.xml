@@ -8,7 +8,7 @@
   
   <default remote="github" revision="refs/heads/khadas-vims-nougat" sync-j="4"/>
   
-  <project name="vim2_shs" path="shs" remote="hyperion11" revision="bf5b23f4e1df405f662217396101b37a406316e5">
+  <project name="vim1_shs" path="shs" remote="hyperion11" revision="b465e148ae1a97b700c30313a403c427f6beeefc">
     <linkfile dest="build_boot_logo.sh" src="build_boot_logo.sh"/>
     <linkfile dest="build_full.sh" src="build_full.sh"/>
     <linkfile dest="build_kernel.sh" src="build_kernel.sh"/>
