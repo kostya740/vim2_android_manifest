@@ -16,7 +16,7 @@
     <linkfile dest="build_uboot.sh" src="build_uboot.sh"/>
   </project>
   <project name="android_vendor_amlogic_apps_IrBlaster" path="vendor/amlogic/apps/IrBlaster" revision="fab61fd332ea3bb4ccba6791a3df0c1d4c1dea31"/>
-  <project name="vim_android_device_khadas" path="device/khadas" remote="hyperion11" revision="68d3f4a9d454480fded1a779a186d0b80d875231"/>
+  <project name="vim_android_device_khadas" path="device/khadas" remote="hyperion11" revision="69b2da3e4d5c7d1c6875fac92bbe8e67a9490ebe"/>
   <project name="linux" path="common" revision="1bd6972cd0093725c0b1dc87f6546648bbb22452"/>
   <project name="android_abi_cpp" path="abi/cpp" revision="36b381298a4efb7c293d394d8b1acbda68230989"/>
   <project name="android_art" path="art" revision="f9e3754e8a2f6244e037362c03db32d4244ecb2d"/>
