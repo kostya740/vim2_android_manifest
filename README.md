@@ -15,19 +15,19 @@ $ cd WORKING_DIRECTORY
 2) Run `repo init` to bring down the manifest repository first:
 For Android Marshmallow(6.0):
 ```sh
-$ repo init -u https://github.com/kostya740/vim2_android_manifest.git -b Mmallow
+$ repo init -u https://github.com/hyperion11/vim_android_manifest.git -b Mmallow
 ```
 *Note: Only available for VIM1.*
 
 For Android Nougat(7.1):
 ```sh
-$ repo init -u https://github.com/kostya740/vim2_android_manifest.git -b Nougat
+$ repo init -u https://github.com/hyperion11/vim_android_manifest.git -b Nougat
 ```
 *Note: Available for both VIM1 & VIM2.*
 
 For Android Oreo(8.0):
 ```sh
-$ repo init -u https://github.com/kostya740/vim2_android_manifest.git -b Oreo
+$ repo init -u https://github.com/hyperion11/vim_android_manifest.git -b Oreo
 ```
 *Note: Only available for VIM1.*
 
